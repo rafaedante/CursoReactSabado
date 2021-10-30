@@ -1,0 +1,16 @@
+LINKS
+
+https://babeljs.io/
+
+INSTALACION
+
+1 - npm i babel-cli babel-preset-env -D
+
+2 - crear un archivo de configuracion .babelrc con ->
+{
+    "presets": ["env"]
+}
+
+EJECUCION
+
+.\node_modules\.bin\babel index.ES6.js -o index.JS5.js -w

@@ -1,0 +1,12 @@
+LINKS
+
+https://webpack.js.org/
+
+
+INSTALACION
+
+npm i webpack@4.44.1 webpack-cli@3.3.12 -D
+
+EJECUCION
+.\node_modules\.bin\webpack index.JS5.js index.WP.js -o index.min.js --mode="production" -w
+.\node_modules\.bin\webpack index.JS5.js index.WP.js -o index.min.js --mode="development" -w
