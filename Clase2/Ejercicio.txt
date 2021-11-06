@@ -1,0 +1,11 @@
+
+REALIZAR UN PROYECTO REACT QUE CONTENGA DOS COMPONENTES EMBEBIDOS DENTRO DEL
+COMPONENTE PRINCIPAL.
+
+UNO DE ELLOS SERA UN COMPONENTE STATELESS LLAMADO ENCABEZADO, que reciba la prop 'titulo'
+y debera mostrar la informacion recibida por esa prop dentro de un elemento h1 en color azul.
+
+El otro componente debera guardar estado (statefull) y se llamara CONTENIDO. 
+Representara un texto que recibira la prop 'texto', en un elemento de parrafo y dispondra
+de un boton que permita cambiar el fondo de dicho texto entre los colores amarillo, cyan y
+naranja de manera rotativa.
