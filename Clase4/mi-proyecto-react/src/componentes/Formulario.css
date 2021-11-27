@@ -1,0 +1,12 @@
+.Formulario {
+
+}
+
+.Formulario .jumbotron {
+    background-color: crimson;
+    color: white
+}
+
+.Formulario hr {
+    background-color: #ddd;
+}

@@ -61,11 +61,23 @@ function MostrarDatosHijo(props) {
                 <BrowserRouter>
                     <Navbar />
                     <Switch>
+                      {/* ----------------------
+                        Redireccion
+                      ---------------------- */}
                        <Route exact path="/">
-                        <Redirect to="/mensaje2" />
+                        <Redirect to="/mensaje2/Mensaje Nro 2/orangered" />
                        </Route>
+
+                      {/* -------------------------------
+                        Ruteado sin parametros 
+                      ------------------------------- */}
+                       <Route path="/mensaje" component ={Mensaje} />
+
+                      {/* -------------------------------
+                        Ruteado con parametros por props
+                      ------------------------------- */}
                        
-                       <Route path="/mensaje1" component = {
+                       {/* <Route path="/mensaje1" component = {
                          () => <Mensaje msj="Mensaje Nro 1" fondo="green"/>
                        }/>
                        <Route path="/mensaje2" component = {
@@ -73,7 +85,19 @@ function MostrarDatosHijo(props) {
                        }/>
                        <Route path="/mensaje3" component = {
                          () => <Mensaje msj="Mensaje Nro 3" fondo="blue"/>
-                       }/>
+                       }/> */}
+
+                        {/* -------------------------------
+                        Ruteado con parametros por ruta
+                      ------------------------------- */}
+                       
+                       <Route path="/mensaje1/:msj/:fondo" component ={Mensaje} />
+                       <Route path="/mensaje2/:msj/:fondo" component ={Mensaje} />
+                       <Route path="/mensaje3/:msj/:fondo" component ={Mensaje} />
+
+                      {/* -------------------------------
+                        Componente para ruta no valida 
+                      ------------------------------- */}
                        <Route component = {Rutanovalida}/>
                     </Switch>
                 </BrowserRouter>

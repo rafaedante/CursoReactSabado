@@ -1,0 +1,12 @@
+.Atributo {
+
+}
+
+.Atributo .jumbotron {
+    background-color: blueviolet;
+    color: white
+}
+
+.Atributo hr {
+    background-color: #ddd;
+}
