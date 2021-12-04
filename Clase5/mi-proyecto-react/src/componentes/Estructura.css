@@ -1,0 +1,12 @@
+.Estructura {
+
+}
+
+.Estructura .jumbotron {
+    background-color: green;
+    color: white
+}
+
+.Estructura hr {
+    background-color: #ddd;
+}

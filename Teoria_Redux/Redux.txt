@@ -1,0 +1,13 @@
+Redux es
+
+- Contenerdor predecible del estado de las APP JS
+- ReactJS (V) + Redux (MC) = MVC (Modelo - Vista -Controlador)
+- React lleva el estado de las APP y este es almacenado en un unico store
+- Para cambiar el estado hay que emitir una accion
+- Una accion esta compuesta por una descripcion de la tarea mas los datos
+- Las acciones transforman el arbol de estado a traves de los "Reducers" (son funciones puras)
+- El estado no se modifica directamente, se hace a traves de "Reducers" mediante acciones.
+- Cuando la APP crece, no se agregan mas stores, sino se agegan mas "Reducers" (arbol)
+
+Principios Redux:
+
